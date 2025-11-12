@@ -1,0 +1,73 @@
+/* CSS Variables - Bauhaus Minimalist Style */
+
+:root {
+    /* Colors - Light Mode */
+    --bg-color: #FFFFFF;
+    --bg-secondary: #F7F6F3;
+    --text-color: #37352F;
+    --text-shade: #2F2F2F;
+    --text-tint: #8B8B8B;
+    --border-color: #E9E9E7;
+    --accent-color: #2383E2;
+    --accent-hover: #1A6BB8;
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    /* Colors - Platform */
+    --color-jike: #FFE411;
+    --color-wechat: #07C160;
+    --color-xiaohongshu: #FF2442;
+
+    /* Spacing */
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+    --space-2xl: 64px;
+
+    /* Typography */
+    --font-sans: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+    --font-mono: 'SF Mono', Monaco, 'Inconsolata', monospace;
+
+    --font-size-xs: 14px;
+    --font-size-sm: 15px;
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-2xl: 24px;
+    --font-size-3xl: 32px;
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Border Radius */
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+
+    /* Layout */
+    --container-width: 1200px;
+    --header-height: 64px;
+    --tabs-height: 56px;
+
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-base: 300ms ease;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+    --bg-color: #1A1A1A;
+    --bg-secondary: #1F1F1F;
+    --text-color: #E0E0E0;
+    --text-shade: #FFFFFF;
+    --text-tint: #A0A0A0;
+    --border-color: #2A2A2A;
+    --accent-color: #4A9EFF;
+    --accent-hover: #6BB0FF;
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Cache
+.cache/
+dist/
+
+# Config (if contains sensitive data)
+# config.json
+
+# Node modules (if we add build tools later)
+node_modules/
